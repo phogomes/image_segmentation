@@ -5,6 +5,7 @@ Autores: Zuoyong Li, Guanghai Liu, David Zhang e YongXu
 Publicado em: Pattern Recognition  2016
 
 Autor do código: Paulo Henrique de Oliveira Gomes
+email: phdeoliveiragomes@gmail.com
 %}
 close all, clear, clc
 
