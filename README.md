@@ -3,8 +3,7 @@ Implementação em MATLAB do método descrito no artigo "Robust single-object im
 Essa é uma implementação bem fiel do método de seguimentação de imagem de objeto unico descrito no artigo citado acima.
 
 Basta rodar o arquivo RUN.m para ver o resultado para uma imagem. 
-Caso queira mudar a imagem basta olhar na pasta "imagens" e escolher outro nome e mudar a variavel "nome" para o nome da imagem
-(sem extensão).
+Caso queira mudar a imagem basta escolher uma dentre as presentes na pasta "imagens" e mudar a variavel "nome" para o nome da imagem (sem extensão).
 
 As seguintes variaveis:
 w = 0 ;        % [0, 0,1, 0,2, 0,3, 0,4, 0,5, 0,6, 0,7, 0,8, 0,9, 1]
