@@ -16,9 +16,13 @@ alpha = 0.05; % [0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.07, 0.08, 0.09, 0.1]
 beta = 0.1;   % [0.1, 0.2, 0.3, 0.4, 0.5]
 
 %% Carrega os dados e o ground truth
-nome = '168';
-I = imread(strcat(nome,'.jpg'));
-B0 = imread(strcat(nome,'_gt.bmp'));
+CurrentPath = pwd;
+addpath(genpath(strcat(CurrentPath, '/imagens')));
+files = dir('imagens');
+
+k = 1;      % numero da imagem que vc quer de 1 até 10
+I = imread(files((k*2)+1).name);
+B0 = imread(files((k*2)+2).name);
 
 %% Extracao da Regiao de Transicao
 TR = Transition_Region(I,N_size,alpha,w);
