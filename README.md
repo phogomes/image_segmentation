@@ -2,6 +2,12 @@
 Implementação em MATLAB do método descrito no artigo "Robust single-object image segmentation based on salient transition region"
 Essa é uma implementação bem fiel do método de seguimentação de imagem de objeto unico descrito no artigo citado acima.
 
+Autor do código: Paulo Henrique de Oliveira Gomes
+
+Data: julho de 2019
+
+Email: phdeoliveiragomes@gmail.com
+
 Basta rodar o arquivo RUN.m para ver o resultado para uma imagem. 
 Caso queira mudar a imagem basta escolher uma dentre as presentes na pasta "imagens" e mudar a variavel "nome" para o nome da imagem (sem extensão).
 
