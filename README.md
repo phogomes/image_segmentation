@@ -1,4 +1,4 @@
-##image_segmentation
+#image_segmentation
 Implementação em MATLAB do método descrito no artigo "Robust single-object image segmentation based on salient transition region"
 Essa é uma implementação bem fiel do método de seguimentação de imagem de objeto unico descrito no artigo citado acima.
 
